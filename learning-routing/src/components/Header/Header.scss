@@ -1,0 +1,17 @@
+.navbar_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(0, 0, 0);
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .navbar_item {
+    flex-direction: column;
+  }
+}
